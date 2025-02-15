@@ -48,8 +48,8 @@ Projeye başlamadan önce aşağıdaki adımları tamamlayın:
 
 1. Dosyaları silin ve Git geçmişini temizleyin:
 
-Windows CMD veya PowerShell için:
-```powershell
+Windows CMD için (PowerShell değil):
+```bash
 del README.md && del public\delete_this_file && rmdir /s /q .git && git init
 ```
 
@@ -58,7 +58,7 @@ Git Bash için:
 rm README.md public/delete_this_file && rm -rf .git && git init
 ```
 
-Not: Windows'ta `rm -rf` komutu çalışmaz. Git Bash kullanmıyorsanız, PowerShell veya CMD komutlarını kullanın.
+Not: Windows'ta `rm -rf` komutu çalışmaz. Git Bash kullanmıyorsanız CMD komutlarını kullanın.
 
 2. `package.json` dosyasını düzenleyin:
 ```json

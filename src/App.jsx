@@ -3,7 +3,7 @@
  * -------------------------------
  * 1. Aşağıdaki komutlardan birini terminal penceresine kopyalayıp yapıştırın:
  * 
- *    📌 Windows (CMD/PowerShell) kullanıyorsanız:
+ *    📌 Windows CMD kullanıyorsanız (PowerShell değil):
  *    > del README.md && del public\delete_this_file && rmdir /s /q .git && git init
  *    
  *    📌 Git Bash kullanıyorsanız:
