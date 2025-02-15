@@ -1,21 +1,91 @@
-# Boş React + Vite Proje Şablonu
+# 🚀 React + Vite Başlangıç Şablonu
 
-> Bu depo, React ve Vite kullanarak yeni bir proje başlatmanız için hazırlanmış boş bir şablondur.
+Bu şablon, React ve Vite kullanarak hızlı bir şekilde yeni bir proje başlatmanız için hazırlanmıştır.
 
-**Önemli Not**: Depoyu klonladıktan sonra `README.md` ve public klasörü içerisindeki `delete_this_file` dosyalarını silmeyi unutmayın!
+## 📋 Başlarken
 
 ### Kurulum
 
-Aşağıdaki git komutunu kullanarak şablonu bilgisayarınıza indirebilirsiniz:
+1. Şablonu klonlayın:
 
+Mevcut dizine klonlama:
+```bash
+git clone https://github.com/MrDemirtas/empty-react.git .
+```
+
+Varsayılan klasör adıyla klonlama:
 ```bash
 git clone https://github.com/MrDemirtas/empty-react.git
 ```
 
-Bu komut, şablonu bulunduğunuz dizin içerisinde "empty-react" adında yeni bir klasöre indirecektir.
+Özel bir klasör adıyla klonlama:
+```bash
+git clone https://github.com/MrDemirtas/empty-react.git my-react-app
+```
 
-**Not**: Eğer şablonu mevcut dizine indirmek isterseniz, komutun sonuna `./` ekleyebilirsiniz:
+2. Proje klasörüne gidin (mevcut dizine klonladıysanız bu adımı atlayın):
+
+Varsayılan klasör için:
+```bash
+cd empty-react
+```
+
+Özel klasör için:
+```bash
+cd my-react-app
+```
+
+3. Bağımlılıkları yükleyin:
+
+npm ile:
+```bash
+npm install
+```
+
+## ⚠️ Önemli Yapılacaklar
+
+Projeye başlamadan önce aşağıdaki adımları tamamlayın:
+
+1. Dosyaları silin ve Git geçmişini temizleyin:
+
+Windows CMD veya PowerShell için:
+```powershell
+del README.md && del public\delete_this_file && rmdir /s /q .git && git init
+```
+
+Git Bash için:
+```bash
+rm README.md public/delete_this_file && rm -rf .git && git init
+```
+
+Not: Windows'ta `rm -rf` komutu çalışmaz. Git Bash kullanmıyorsanız, PowerShell veya CMD komutlarını kullanın.
+
+2. `package.json` dosyasını düzenleyin:
+```json
+{
+  "name": "your-project-name"
+}
+```
+
+Not: Proje adı küçük harflerden oluşmalı ve tire (-) ile ayrılmalıdır. Örnek: "my-awesome-project"
+
+## 🚀 Geliştirme
+
+Geliştirme sunucusunu başlatmak için:
 
 ```bash
-git clone https://github.com/MrDemirtas/empty-react.git ./
+npm run dev
 ```
+
+## 📦 Dağıtım
+
+Projeyi derlemek için:
+
+```bash
+npm run build
+```
+
+## 🛠️ Kullanılan Teknolojiler
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)

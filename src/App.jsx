@@ -1,16 +1,23 @@
-export default function App() {
+/*
+ * ⚠️ BAŞLAMADAN ÖNCE YAPILACAKLAR
+ * -------------------------------
+ * 1. Aşağıdaki komutlardan birini terminal penceresine kopyalayıp yapıştırın:
+ * 
+ *    📌 Windows (CMD/PowerShell) kullanıyorsanız:
+ *    > del README.md && del public\delete_this_file && rmdir /s /q .git && git init
+ *    
+ *    📌 Git Bash kullanıyorsanız:
+ *    > rm README.md public/delete_this_file && rm -rf .git && git init
+ * 
+ * 2. package.json Düzenleyin:
+ *    - "name" alanını projenizin adıyla değiştirin
+ *    - Proje adı küçük harflerle ve tire (-) ile yazılmalıdır
+ *    - Örnek: "my-awesome-project"
+ */
 
+export default App = () => {
   return (
     <>
     </>
   );
-}
-
-/*
-  Bu bash kodlarını çalıştırarak dosya temizlemesi yapmanız gerekir:
-  (Bash terminalinde çalıştırınız.)
-  
-  rm -rf .git
-  rm -rf public/delete_this_file
-  rm -rf README.md
-*/
+};
