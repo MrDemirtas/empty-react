@@ -15,7 +15,7 @@
  *    - Örnek: "my-awesome-project"
  */
 
-export default App = () => {
+export default function App() {
   return (
     <>
     </>
