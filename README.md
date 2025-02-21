@@ -48,7 +48,12 @@ Projeye başlamadan önce aşağıdaki adımları tamamlayın:
 
 1. Dosyaları silin ve Git geçmişini temizleyin:
 
-Windows CMD için (PowerShell değil):
+Windows PowerShell için:
+```powershell
+Remove-Item "README.md","public\delete_this_file",".git" -Recurse -Force; git init
+```
+
+Windows CMD için:
 ```bash
 del README.md && del public\delete_this_file && rmdir /s /q .git && git init
 ```
